@@ -8,6 +8,9 @@ regular expression | description
 `^(?i:@[a-z0-9_]+)\s*$` | Empty replies
 `(?i:#[a-z0-9]+.*){3,}` | Tweets containing more than three **#hashtags**
 `(?i:@[a-z0-9]+.*){3,}` | Tweets containing more than three **@usernames**
+`^(?i:I liked a @YouTube video)` | YouTube auto-tweets
+`^(?i:I checked in at .*yelp\.com)` | Yelp check-ins
+`^(?i:I'm at .*4sq\.com)` | Foursquare check-ins
 
 # Clients
 
