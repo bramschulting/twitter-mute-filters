@@ -11,6 +11,7 @@ regular expression | description
 `^(?i:I liked a @YouTube video)` | YouTube auto-tweets
 `^(?i:I checked in at .*yelp\.com)` | Yelp check-ins
 `^(?i:I'm at .*4sq\.com)` | Foursquare check-ins
+`(?i:star ?wars)` | ~~Marketing~~ Star Wars tweets
 
 # Clients
 
